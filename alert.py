@@ -1,5 +1,5 @@
 # alert.py
-
+# Alert system added
 def raise_alert(message):
     print("\n🚨 ALERT:", message)
 
