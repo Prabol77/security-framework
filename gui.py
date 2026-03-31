@@ -1,5 +1,5 @@
 # gui.py
-
+# GUI interface added
 import tkinter as tk
 from simulator import buffer_overflow_simulation, fake_process_simulation
 from detector import detect_vulnerability
