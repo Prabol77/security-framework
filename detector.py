@@ -1,5 +1,5 @@
 # detector.py
-
+# Detection logic implemented
 def detect_vulnerability(event):
     if event["type"] == "buffer_overflow":
         if len(event["data"]) > 5000:
